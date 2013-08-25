@@ -64,7 +64,7 @@ and register yourkey to GitHub.
 
 ### Make ssh config
 ```
-vim ~/.ssh/config
+$ vim ~/.ssh/config
 
 host github.com
    user git
