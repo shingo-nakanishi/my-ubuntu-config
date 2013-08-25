@@ -37,7 +37,7 @@ restart Ubuntu!
 
 
 ## Install zsh
-### in Cent OS
+### in Ubuntu
 check zsh isn't installed
 
 ```
@@ -47,6 +47,12 @@ $ cat /etc/shells
 ### Install zsh
 ```
 $ sudo apt-get install zsh
+```
+
+## Install Git, Vim
+```
+$ sudo apt-get -y install git-core
+$ sudo apt-get install vim
 ```
 
 ## Config SSH (You can git clone from GitHub)
