@@ -30,7 +30,9 @@ PasswordAuthentication no
 ```
 $ sudo ufw enable
 $ sudo ufw default DENY
+$ sudo ufw allow ssh
 ```
+restart Ubuntu!
 
 
 
