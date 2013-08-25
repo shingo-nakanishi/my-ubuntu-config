@@ -3,21 +3,36 @@ http://nekoya.github.io/blog/2013/01/24/sakura-vps-ubuntu/
 https://gist.github.com/tsabat/1498393
 https://help.ubuntu.com/community/VimHowto
 
-## Make ssh file connect from Mac to Cent OS
+## Make ssh file connect from Mac to Ubuntu
 ### in Mac
 ```
 $ ssh-keygen
 ```
 
-### in Cent OS
+### in Ubuntu
+```
+$ mkdir .ssh
+$ chmod 700 .ssh
+```
 Paste public key to `~/.ssh/authorized_keys`
+```
+$ sudo chmod 600 .ssh/authorized_keys
+```
 
 ### Only connect use public key
 Edit file `/etc/ssh/sshd_config`
 ```
-PermitRootLogin without-password
+PermitRootLogin no
 PasswordAuthentication no
 ```
+
+## ufw
+```
+$ sudo ufw enable
+$ sudo ufw default DENY
+```
+
+
 
 ## Install zsh
 ### in Cent OS
