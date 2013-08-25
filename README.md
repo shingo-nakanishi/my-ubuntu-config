@@ -56,7 +56,7 @@ $ sudo apt-get install vim
 ```
 
 ## Config SSH (You can git clone from GitHub)
-### Make ssh file connect from Cent OS to Github
+### Make ssh file connect from Ubuntu to Github
 ```
 $ ssh-keygen -t rsa
 ```
