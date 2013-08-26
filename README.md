@@ -102,3 +102,7 @@ $ apt-get install build-essential bison libreadline6-dev curl git-core zlib1g-de
 ```
 $ gem install bundler
 ```
+
+### Instal Gitlab
+* https://github.com/gitlabhq/gitlabhq/blob/master/doc/install/installation.md
+* http://stackoverflow.com/questions/10051448/error-failed-to-build-gem-native-extension-mysql2-on-rails-3-2-3
