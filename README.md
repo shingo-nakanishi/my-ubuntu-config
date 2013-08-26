@@ -3,6 +3,7 @@
 * https://gist.github.com/tsabat/1498393
 * https://help.ubuntu.com/community/VimHowto
 * http://d.hatena.ne.jp/hogem/20060712/1152717623
+* http://qiita.com/kazoo04/items/7056704efee66f323ddb
 
 
 ## su root
@@ -77,3 +78,9 @@ host github.com
    hostname github.com
    identityfile ~/.ssh/your_key
 ```
+
+### Install rbenv
+```
+apt-get install build-essential bison libreadline6-dev curl git-core zlib1g-dev libssl-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev autoconf libncurses5-dev
+```
+* https://github.com/sstephenson/rbenv
