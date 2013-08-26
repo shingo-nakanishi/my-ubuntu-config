@@ -126,3 +126,6 @@ $ sudo apt-get update
 $ sudo apt-get upgrade
 $ sudo apt-get install git
 ```
+
+#### open ufw port
+If you use ufw open port for gitlab.
