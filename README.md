@@ -109,6 +109,8 @@ $ gem install bundler
 * http://ubuntuforums.org/showthread.php?t=2061057
 * http://stackoverflow.com/questions/13018626/add-apt-repository-not-found
 
+
+#### if your git < 1.7.10
 <= 12.04
 ```
 sudo apt-get install python-software-properties
