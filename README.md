@@ -6,14 +6,6 @@
 * http://qiita.com/kazoo04/items/7056704efee66f323ddb
 * http://d.hatena.ne.jp/tkrd/20120828/1346123699
 
-## Edit /etc/ssh/ssh_config
-```
-$ vi /etc/ssh/ssh_config
-```
-
-`SendEnv LANG LC_*` to `#SendEnv LANG LC_*`
-and logout `$ exit`
-
 
 ## su root
 ```
@@ -86,6 +78,16 @@ host github.com
    user git
    hostname github.com
    identityfile ~/.ssh/your_key
+```
+
+### Install my-config
+
+
+#### Edit ~/my-config/zsh-config/zshrc.zsh
+like this
+```
+#export LANG=ja_JP.UTF-8
+export LC_ALL=en_US.UTF-8
 ```
 
 ### Install rbenv
