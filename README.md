@@ -12,7 +12,7 @@ $ vim /etc/ssh/ssh_config
 ```
 
 `SendEnv LANG LC_*` to `#SendEnv LANG LC_*`
-
+and logout `$ exit`
 
 
 ## su root
