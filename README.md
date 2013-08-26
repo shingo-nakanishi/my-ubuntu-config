@@ -1,8 +1,8 @@
 ## Document
-http://nekoya.github.io/blog/2013/01/24/sakura-vps-ubuntu/
-https://gist.github.com/tsabat/1498393
-https://help.ubuntu.com/community/VimHowto
-http://d.hatena.ne.jp/hogem/20060712/1152717623
+* http://nekoya.github.io/blog/2013/01/24/sakura-vps-ubuntu/
+* https://gist.github.com/tsabat/1498393
+* https://help.ubuntu.com/community/VimHowto
+* http://d.hatena.ne.jp/hogem/20060712/1152717623
 
 
 ## su root
