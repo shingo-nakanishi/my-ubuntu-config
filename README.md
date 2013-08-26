@@ -84,3 +84,9 @@ host github.com
 apt-get install build-essential bison libreadline6-dev curl git-core zlib1g-dev libssl-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev autoconf libncurses5-dev
 ```
 * https://github.com/sstephenson/rbenv
+
+### Install bundler
+* http://bundler.io/
+```
+$ gem install bundler
+```
