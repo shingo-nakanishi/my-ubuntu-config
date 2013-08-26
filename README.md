@@ -35,9 +35,9 @@ PasswordAuthentication no
 
 ## ufw
 ```
-$ sudo ufw enable
-$ sudo ufw default DENY
-$ sudo ufw allow ssh
+$ ufw enable
+$ ufw default DENY
+$ ufw allow ssh
 ```
 restart Ubuntu!
 
@@ -52,13 +52,13 @@ $ cat /etc/shells
 
 ### Install zsh
 ```
-$ sudo apt-get install zsh
+$ apt-get install zsh
 ```
 
 ## Install Git, Vim
 ```
-$ sudo apt-get -y install git-core
-$ sudo apt-get install vim
+$ apt-get -y install git-core
+$ apt-get install vim
 ```
 
 ## Config SSH (You can git clone from GitHub)
