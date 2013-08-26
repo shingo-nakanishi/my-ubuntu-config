@@ -4,6 +4,15 @@
 * https://help.ubuntu.com/community/VimHowto
 * http://d.hatena.ne.jp/hogem/20060712/1152717623
 * http://qiita.com/kazoo04/items/7056704efee66f323ddb
+* http://d.hatena.ne.jp/tkrd/20120828/1346123699
+
+## Edit /etc/ssh/ssh_config
+```
+$ vim /etc/ssh/ssh_config
+```
+
+`SendEnv LANG LC_*` to `#SendEnv LANG LC_*`
+
 
 
 ## su root
