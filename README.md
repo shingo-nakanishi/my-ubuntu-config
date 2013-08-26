@@ -109,7 +109,11 @@ $ gem install bundler
 * http://ubuntuforums.org/showthread.php?t=2061057
 * http://stackoverflow.com/questions/13018626/add-apt-repository-not-found
 
+<= 12.04
 ```
-$ apt-get install software-properties-common
-$ 
+sudo apt-get install python-software-properties
+```
+for >= 12.10
+```
+sudo apt-get install software-properties-common
 ```
