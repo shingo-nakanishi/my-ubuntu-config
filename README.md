@@ -106,3 +106,10 @@ $ gem install bundler
 ### Instal Gitlab
 * https://github.com/gitlabhq/gitlabhq/blob/master/doc/install/installation.md
 * http://stackoverflow.com/questions/10051448/error-failed-to-build-gem-native-extension-mysql2-on-rails-3-2-3
+* http://ubuntuforums.org/showthread.php?t=2061057
+* http://stackoverflow.com/questions/13018626/add-apt-repository-not-found
+
+```
+$ apt-get install software-properties-common
+$ 
+```
