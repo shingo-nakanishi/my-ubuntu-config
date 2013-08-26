@@ -119,3 +119,10 @@ for >= 12.10
 ```
 sudo apt-get install software-properties-common
 ```
+
+```
+$ sudo add-apt-repository ppa:voronov84/andreyv
+$ sudo apt-get update
+$ sudo apt-get upgrade
+$ sudo apt-get install git
+```
