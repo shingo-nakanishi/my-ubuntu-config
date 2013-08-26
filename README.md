@@ -87,6 +87,7 @@ apt-get install build-essential bison libreadline6-dev curl git-core zlib1g-dev 
 
 ### Install bundler
 * http://bundler.io/
+
 ```
 $ gem install bundler
 ```
