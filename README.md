@@ -8,7 +8,7 @@
 
 ## Edit /etc/ssh/ssh_config
 ```
-$ vim /etc/ssh/ssh_config
+$ vi /etc/ssh/ssh_config
 ```
 
 `SendEnv LANG LC_*` to `#SendEnv LANG LC_*`
