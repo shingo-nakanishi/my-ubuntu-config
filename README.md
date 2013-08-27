@@ -57,6 +57,13 @@ $ cat /etc/shells
 $ apt-get install zsh
 ```
 
+### change login sh to zsh
+```
+$ chsh
+
+>>> input zsh path
+```
+
 ## Install Git, Vim
 ```
 $ apt-get -y install git-core
